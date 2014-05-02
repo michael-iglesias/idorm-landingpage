@@ -1,0 +1,249 @@
+body {
+  background-color: white;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  margin: 10px 0px;
+  background-color: #96cb52;
+  font-family: Exo, sans-serif;
+  color: white;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 600;
+  text-align: center;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 0px 0px 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 0px 0px 1px;
+  padding-left: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 13px;
+}
+.button {
+  display: inline-block;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.content-block {
+  width: 92%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.left-sidebar {
+  position: static;
+  padding: 50px 0px 22px;
+  text-align: center;
+}
+.content-column {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+.logo {
+  margin-bottom: 13px;
+}
+.nav-link {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  border-bottom: 1px solid #ccc;
+  color: #96cb52;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  background-color: #ccc;
+  color: white;
+}
+.image-example {
+  height: 380px;
+  margin-top: -50px;
+  padding-top: 0px;
+  background-image: url('../images/example-bg.png');
+}
+.caption {
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-right: 0px;
+  float: left;
+  text-align: center;
+}
+.italic-text {
+  margin-top: 18px;
+  margin-bottom: 17px;
+  color: #96cb52;
+  font-style: italic;
+  font-weight: 400;
+}
+.italic-text.footer {
+  width: 90%;
+}
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 9px;
+  border-radius: 50px;
+  background-color: #ccc;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.social-icon:hover {
+  background-color: #adadad;
+}
+.footer-section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  background-color: #ededed;
+}
+.fixed-nav {
+  position: fixed;
+  width: 33.34%;
+}
+.color-garnett {
+  color: #862633;
+}
+.color-gold {
+  color: #c5b783;
+}
+.contact-box {
+  margin-top: 2px;
+  padding-top: 0px;
+  padding-left: 6px;
+}
+.add-space {
+  margin-top: 20px;
+}
+.name {
+  margin-bottom: 5px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #96cb52;
+  font-size: 15px;
+  font-weight: 400;
+}
+.headshot {
+  border-radius: 75px;
+}
+.tagline {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.personaltitle {
+  color: #333;
+}
+.whatwedoparagraph {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.whatwedoimage {
+  width: 150px;
+  height: 149px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 90px;
+}
+.feature {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #96cb52;
+  font-size: 15px;
+  font-style: italic;
+}
+.icon {
+  margin: 5px;
+  padding: 5px;
+}
+@media (max-width: 991px) {
+  .image-example {
+    background-image: url('../images/example-bg.png');
+  }
+}
+@media (max-width: 767px) {
+  .content-block {
+    width: 92%;
+  }
+  .left-sidebar {
+    padding-top: 29px;
+  }
+  .content-column {
+    padding-top: 0px;
+  }
+  .image-example {
+    background-image: url('../images/example-bg.png');
+  }
+  .fixed-nav {
+    position: static;
+    width: auto;
+  }
+  .name {
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+  .feature {
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #329833;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 479px) {
+  .image-example {
+    background-image: url('../images/example-bg.png');
+  }
+}
